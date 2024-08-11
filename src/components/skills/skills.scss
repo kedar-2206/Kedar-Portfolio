@@ -1,0 +1,78 @@
+@import "../../app.scss";
+
+.skills-container{
+    margin:4rem 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h5{
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-bottom: 3.5rem;
+    }
+
+    .skills-content{
+        display: flex;
+        align-items: flex-start;
+        gap: 3rem;
+        justify-content: center;
+        width: 100%;
+
+        @include mobile{
+            flex-direction: column;
+            
+        }
+
+        .skills{
+            flex: 1;
+            display: grid;
+            grid-gap: 3rem;
+            grid-template-columns: repeat(2, 1fr);
+            align-self: center;
+            margin-left: 1rem;
+            
+
+            @include mobile{
+                width: 100%;
+                
+            }
+
+            
+        }
+
+        .skills-info{
+            flex: 1;
+
+            @include mobile{
+                width: 100%;
+                
+            }
+        }
+    }
+}
+
+.skills-container::after,
+.skills-container::before{
+    content: "";
+    width: 28rem;
+    height: 28rem;
+    border-radius: 28.125rem;
+    background: #7c66e3;
+    position: absolute;
+    z-index: -1;
+    filter: blur(200px);
+}
+
+.skills-container::after{
+    top: -3rem;
+    left: -5rem;
+}
+
+.skills-container::before{
+    background: #9e51b9;
+    bottom: 0rem;
+    right: 0rem;
+}
