@@ -1,8 +1,8 @@
 import React from 'react';
 import "./hero.scss";
-import { animate, delay, motion } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { Link } from 'react-scroll';
-import PP from "../../assets/PP.png";
+import { PiMouseSimpleBold } from "react-icons/pi";
 
 const textVariants = {
     initial:{
@@ -77,7 +77,10 @@ function Hero() {
                         </Link>
                     </motion.button>
                 </motion.div>
-                <motion.img variants={textVariants} animate="scrollButton" src="./scroll.png" alt="" />
+                <motion.div variants={textVariants} animate="scrollButton">
+                {/* src="./scroll.png" alt="No Image" */}
+                    <PiMouseSimpleBold size={60}/>
+                </motion.div>
             </motion.div>
         </motion.div>
         <motion.div className="slidingTextContainer" variants={sliderVariants} initial="initial" animate="animate">

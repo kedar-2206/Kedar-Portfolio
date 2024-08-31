@@ -2,8 +2,6 @@ import React, { useRef } from 'react';
 import "./portfolio.scss";
 import {motion, useScroll, useSpring, useTransform} from "framer-motion";
 import {items} from "../../utils/projects"
-// import {} from "../../assets"
-import bloggle from "../../assets/bloggle.png";
 
 
 const Single = ({item}) => {
