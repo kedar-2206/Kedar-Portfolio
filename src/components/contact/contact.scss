@@ -31,6 +31,7 @@
         h1{
             font-size: 100px;
             line-height: 88px;
+            color: orange;
 
             @include mobile{
                 font-size: 40px;
@@ -47,13 +48,10 @@
 
     .formContainer{        
         flex: 1;
-        position: relative; 
-
-        .phoneSvg{
-            stroke: orange;
-            position: absolute;
-            margin: auto;
-            z-index: -1;            
+        position: relative;
+        
+        @include mobile{
+            width: 70%;
         }
 
         form{
@@ -76,6 +74,11 @@
                 background-color: orange;
                 cursor: pointer;
                 font-weight: 500;
+
+                @include mobile{
+                    width: 40%;
+                    align-self: center;
+                }
             }
         }
     }

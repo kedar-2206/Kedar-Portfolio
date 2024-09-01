@@ -56,6 +56,24 @@ const imageVariants = {
         },
     },
 }
+// https://docs.google.com/document/d/1O0NchNmqdLq0FvWDdlJrRr96s1s4XZW2ckPTxkcBIXA/edit?usp=sharing_eip&invite=CKqupYsN&ts=66d2b695
+const handleDownload = () => {
+    // Google Docs document ID
+    const googleDocsId = "1O0NchNmqdLq0FvWDdlJrRr96s1s4XZW2ckPTxkcBIXA";
+    const downloadUrl = `https://docs.google.com/document/d/${googleDocsId}/export?format=pdf`;
+
+    // Create an invisible link element
+    const link = document.createElement("a");
+    link.href = downloadUrl;
+    link.download = "Resume.pdf";
+
+    // Append the link to the document and trigger the download
+    document.body.appendChild(link);
+    link.click();
+
+    // Clean up by removing the link element after the download
+    document.body.removeChild(link);
+  };
 
 function Hero() {
   return (
@@ -75,6 +93,9 @@ function Hero() {
                         <Link to="Contact" smooth={true} duration={1000}>
                             Contact Me                            
                         </Link>
+                    </motion.button>
+                    <motion.button variants={textVariants} onClick={handleDownload}>                        
+                        Download Resume                     
                     </motion.button>
                 </motion.div>
                 <motion.div variants={textVariants} animate="scrollButton">
