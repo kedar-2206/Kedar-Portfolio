@@ -1,6 +1,6 @@
 import Links from "./links/Links";
 import "./sidebar.scss";
-import{ delay, motion } from "framer-motion";
+import{ motion } from "framer-motion";
 
 import React, { useState } from 'react'
 import ToggleButton from "./toggleButton/ToggleButton";
@@ -34,6 +34,7 @@ function Sidebar() {
             <Links/>
         </motion.div>
         <ToggleButton setOpen={setOpen}/>
+        {/* <GiHamburgerMenu /> */}
     </motion.div>
   )
 }

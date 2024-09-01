@@ -1,10 +1,13 @@
-import React from 'react';
-import {motion} from "framer-motion";
+import React, { useState } from 'react';
+import { GiHamburgerMenu } from "react-icons/gi";
+import { IoCloseSharp } from "react-icons/io5";
 
 function ToggleButton({setOpen}) {
+    const [isOpen, setIsOpen] = useState(false);
   return (
-    <button onClick={()=> setOpen(prev=>!prev)}>
-        <svg width="23" height="23" viewBox="0 0 23 23">
+    <button onClick={()=> {setOpen(prev=>!prev);setIsOpen(prev => !prev);;}}>        
+        {isOpen ? <IoCloseSharp size={25}/> : <GiHamburgerMenu size={25}/>}        
+        {/* <svg width="23" height="23" viewBox="0 0 23 23">
             <motion.path 
                 strokeWidth="3" 
                 stroke="black" 
@@ -38,7 +41,7 @@ function ToggleButton({setOpen}) {
                     open:{d:"M 3 2.5 L 17 16.346"},
                 }}
             />
-        </svg>
+        </svg> */}
     </button>
   )
 }
