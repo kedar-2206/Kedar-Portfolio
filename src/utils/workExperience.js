@@ -2,7 +2,7 @@ export const workexperience=[
     {
         id:1,
         title: "Senior Software Engineer",
-        date: "JAN 2022 - Present",
+        date: "MAR 2024 - SEPT 2024",
         image: "https://media.licdn.com/dms/image/D4D0BAQH1xglwLa3f8w/company-logo_200_200/0/1697115928905?e=2147483647&v=beta&t=CIyaBB1BymmI7jqg4D-r4XaH7P60HqjmI2DQouHa0iM",
         responsibilities:[
             "Worked in the Application Maintenance and Development team, focusing on the support and enhancement of an enterprise-level insurance application built on eWam and Wynsure",
@@ -15,25 +15,24 @@ export const workexperience=[
     {
         id:2,
         title: "Software Engineer",
-        date: "JAN 2022 - Present",
+        date: "OCT 2023 - MAR 2024",
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgJDxuWKe5zWSa4Rv-B8xfssurCsc0PQI-qw&s",
         responsibilities:[
-            "Developed and maintained client websites",
-            "Implemented advanced CSS animations",
-            "Imporoved the response time by optimizing the code",
+            "Collaborated with cross-functional teams, including business analysts and QA teams.",
+            "Translated business requirements into technical solutions, ensuring high-quality deliverables for Wynsure application.",
+            "Created and managed work breakdown structures (WBS) to plan and organize project tasks",
             "Conducted Code reviews"
         ],
     },
     {
         id:3,
         title: "Junior Software Engineer",
-        date: "JAN 2022 - Present",
+        date: "AUG 2022 - OCT 2023",
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgJDxuWKe5zWSa4Rv-B8xfssurCsc0PQI-qw&s",
         responsibilities:[
-            "Developed and maintained client websites",
-            "Implemented advanced CSS animations",
-            "Imporoved the response time by optimizing the code",
-            "Conducted Code reviews"
+            "Secured N-Tier applications via JWT based authentication scheme where JWT is signed using a private key",
+            "Integrated authentication and authorization features using ASP.NET Core Identity.",
+            "Utilized Swagger/OpenAPI for API documentation and client SDK generation."
         ],
     },
 ]

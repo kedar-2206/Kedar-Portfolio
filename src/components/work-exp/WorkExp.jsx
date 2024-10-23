@@ -1,16 +1,16 @@
 import React from 'react';
 import "./work-exp.scss";
-import { transform,motion, delay } from 'framer-motion';
+import { motion } from 'framer-motion';
 import {internexperience, workexperience} from "../../utils/workExperience"
 
-const isDesktop = window.matchMedia("(min-width: 1366px)").matches
+const isDesktop = window.matchMedia("(min-width: 1280px)").matches
 
 const WorkExpCard = ({item}) => {
 
     const rotateVariants = isDesktop && {
         initial:{
-            rotateY:0, 
-            opacity:0,       
+            rotateY:0,
+            opacity:0,
         },
         animate:{
             rotateY:360,

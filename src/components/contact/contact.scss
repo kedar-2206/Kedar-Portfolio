@@ -23,7 +23,11 @@
 
         @include mobile{
             align-items: center;
-            text-align: center;            
+            text-align: center;
+        }
+
+        @include tablet{
+            padding-left: 20px;
         }
 
         h1{
@@ -44,12 +48,16 @@
         }
     }
 
-    .formContainer{        
+    .formContainer{
         flex: 1;
         position: relative;
-        
+
         @include mobile{
             width: 70%;
+        }
+
+        @include tablet{
+            margin-right: 7rem;
         }
 
         form{

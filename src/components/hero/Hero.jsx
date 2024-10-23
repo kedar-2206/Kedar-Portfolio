@@ -91,11 +91,11 @@ function Hero() {
                     </motion.button>
                     <motion.button variants={textVariants}>
                         <Link to="Contact" smooth={true} duration={1000}>
-                            Contact Me                            
+                            Contact Me
                         </Link>
                     </motion.button>
-                    <motion.button variants={textVariants} onClick={handleDownload}>                        
-                        Download Resume                     
+                    <motion.button variants={textVariants} onClick={handleDownload}>
+                        Download Resume
                     </motion.button>
                 </motion.div>
                 <motion.div variants={textVariants} animate="scrollButton">

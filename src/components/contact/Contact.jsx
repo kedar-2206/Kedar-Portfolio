@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import "./contact.scss";
-import { animate,motion, useInView } from 'framer-motion';
+import { motion } from 'framer-motion';
 import ScrollToTop from "react-scroll-to-top";
 import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
@@ -43,7 +43,7 @@ function Contact() {
 
     const ref=useRef()
 
-    const isInView=useInView(ref,{margin:"-100px"})
+    // const isInView=useInView(ref,{margin:"-100px"})
 
     const form = useRef();
 

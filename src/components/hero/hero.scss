@@ -28,6 +28,10 @@
                 text-align: center;
             }
 
+            @include tablet{
+                padding-left: 30px;
+            }
+
             h2{
                 font-size: 40px;
                 color: rebeccapurple;
@@ -112,6 +116,10 @@
             width: 100%;
             font-size: 25vh;
             bottom: 160px;
+        }
+
+        @include tablet{
+            bottom: -80px;
         }
     }
 }
