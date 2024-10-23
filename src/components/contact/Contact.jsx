@@ -80,11 +80,11 @@ function Contact() {
             </motion.div>
             <motion.div className="item" variants={variants}>
                 <h2>Address</h2>
-                <span>Ambedkar Salai, Valasaravakkam, Chennai</span>
+                <span>Concord, California</span>
             </motion.div>
             <motion.div className="item" variants={variants}>
                 <h2>Phone</h2>
-                <span>+91-7708346966</span>
+                <span>+1 (925) 914-5622</span>
             </motion.div>
         </motion.div>
         <div className="formContainer">
