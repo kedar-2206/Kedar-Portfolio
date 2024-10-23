@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Kedar-Portfolio/static/css/main.19ae7456.css",
-    "main.js": "/Kedar-Portfolio/static/js/main.c5cdb368.js",
+    "main.js": "/Kedar-Portfolio/static/js/main.fe2c83c5.js",
     "static/js/453.ace21015.chunk.js": "/Kedar-Portfolio/static/js/453.ace21015.chunk.js",
     "static/media/bloggle.png": "/Kedar-Portfolio/static/media/bloggle.d0fd7632ac7cebde25e2.png",
     "static/media/mountains.png": "/Kedar-Portfolio/static/media/mountains.6bceb498a0e1e0a70b47.png",
@@ -15,11 +15,11 @@
     "static/media/slick.woff": "/Kedar-Portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Kedar-Portfolio/index.html",
     "main.19ae7456.css.map": "/Kedar-Portfolio/static/css/main.19ae7456.css.map",
-    "main.c5cdb368.js.map": "/Kedar-Portfolio/static/js/main.c5cdb368.js.map",
+    "main.fe2c83c5.js.map": "/Kedar-Portfolio/static/js/main.fe2c83c5.js.map",
     "453.ace21015.chunk.js.map": "/Kedar-Portfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.19ae7456.css",
-    "static/js/main.c5cdb368.js"
+    "static/js/main.fe2c83c5.js"
   ]
 }
