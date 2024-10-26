@@ -94,9 +94,9 @@ function Hero() {
                             Contact Me
                         </Link>
                     </motion.button>
-                    <motion.button variants={textVariants} onClick={handleDownload}>
+                    {/* <motion.button variants={textVariants} onClick={handleDownload}>
                         Download Resume
-                    </motion.button>
+                    </motion.button> */}
                 </motion.div>
                 <motion.div variants={textVariants} animate="scrollButton">
                 {/* src="./scroll.png" alt="No Image" */}
